@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HackLend</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+  <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { width: 960px; display: block; margin: 0 auto; padding: 40px 20px; }
+    header { margin-bottom: 20px }
+    .button { margin-right: 1em; }
+    @media screen and (max-width: 920px) { body { width: 100%; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>HackLend</h1>
+    <h2>Run hackathons and have useful one-off purchases or spares that you'd be willing to lend to other events?</h2>
+    <div class="buttons">
+      <a href="/">Return to home</a>
+    </div>
+  </header>
+
+  <ul>
+  <li>This project is maintained by Kevin Lewis <a href="http://twitter.com/_phzn"><i class="fa fa-twitter"></i></a> <a href="http://github.com/phazonoverload"><i class="fa fa-github"></i></a>.</li>
+  <li>I accept no responsibility for loss or damage. Everyone who has contributed items to this project does so at their own risk, and should try to ensure borrowers are reputable.</li>
+  <li>You should agree a return date for kit if you are lending it.</li>
+  <li>If you borrow kit, it's reasonable to expect the lender to ask for the cost of postage.</li>
+  <li>This is not intended for rentals. If anyone asks for money in return for their kit, you should let me know immediately. </li>
+  </ul>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <script src="data.js"></script>
+  <script>
+    $(items).each(function(k, v) {
+      $("#app tbody").append("<tr><td><a href='"+v.link+"'</a>"+v.name+"</td><td>"+v.owner+"</td><td>"+v.location+"</td><td>"+v.contact+"</td></tr>")
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HackLend</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+  <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { width: 960px; display: block; margin: 0 auto; padding: 40px 20px; }
+    header { margin-bottom: 20px }
+    .buttons { margin-top: 2em; }
+    .button { margin-right: 1em; }
+    @media screen and (max-width: 920px) { body { width: 100%; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>HackLend</h1>
+    <h2>Run hackathons and have useful one-off purchases or spares that you'd be willing to lend to other events?</h2>
+    <div class="buttons">
+      <a href="https://github.com/phazonoverload/hacklend/blob/master/data.js" class="button">Add your kit</a>
+      <a href="/disclaimers.html">Disclaimers</a>
+    </div>
+  </header>
+
+  <table id="app">
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Owner</th>
+        <th>Location</th>
+        <th>Contact</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <script src="data.js"></script>
+  <script>
+    $(items).each(function(k, v) {
+      $("#app tbody").append("<tr><td><a href='"+v.link+"'</a>"+v.name+"</td><td>"+v.owner+"</td><td>"+v.location+"</td><td>"+v.contact+"</td></tr>")
+    });
+  </script>
+</body>
+</html>
