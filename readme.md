@@ -1,4 +1,4 @@
-# HackLend
+# HackLend :purple_heart:
 
 ## The problem
 
@@ -13,6 +13,47 @@ HackLend is a community-curated list of items which organizers are happy to lend
 1. Fork this repository into your own account
 2. Edit data.js (you can do this from within GitHub's online interface) and add a new object for each item. This is everything in between the `{` and `}` brackets. Make sure there's a comma between each object.
 3. Submit a pull request to the origin repo (phazonoverload/hacklend)
+
+### Your contribution 
+
+Your contribution should look like this:
+
+#### Before
+
+<pre>
+var items = [
+  {
+    name: "Name of item",
+    link: "http://amazon.co.uk/LINK_TO_ITEM",
+    owner: "Team/person name",
+    location: "City and country",
+    contact: "name@example.com"
+  }
+];
+</pre>
+
+### After
+
+<pre>
+var items = [
+  {
+    name: "Name of item",
+    link: "http://amazon.co.uk/LINK_TO_ITEM",
+    owner: "Team/person name",
+    location: "City and country",
+    contact: "name@example.com"
+  }<b>,
+  {
+    name: "Name of item",
+    link: "http://amazon.co.uk/LINK_TO_ITEM",
+    owner: "Team/person name",
+    location: "City and country",
+    contact: "name@example.com"
+  }</b>
+];
+</pre>
+
+Please make sure each of your items is separate.
 
 ---
 
