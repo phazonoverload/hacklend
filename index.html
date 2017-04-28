@@ -21,25 +21,34 @@
     </div>
   </header>
 
-  <table id="app">
-    <thead>
-      <tr>
-        <th>Item</th>
-        <th>Owner</th>
-        <th>Location</th>
-        <th>Contact</th>
-      </tr>
-    </thead>
-    <tbody>
-    </tbody>
-  </table>
+  <div id="list-container">
+    <table id="app">
+      <input type="text" class="search" placeholder="Filter items by item, owner or location">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Owner</th>
+          <th>Location</th>
+          <th>Contact</th>
+        </tr>
+      </thead>
+      <tbody class="list">
+      </tbody>
+    </table>
+  </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+
   <script src="data.js"></script>
   <script>
     $(items).each(function(k, v) {
-      $("#app tbody").append("<tr><td><a href='"+v.link+"'</a>"+v.name+"</td><td>"+v.owner+"</td><td>"+v.location+"</td><td>"+v.contact+"</td></tr>")
+      $("#app tbody").append("<tr><td class='name'><a href='"+v.link+"'</a>"+v.name+"</td><td class='owner'>"+v.owner+"</td><td class='location'>"+v.location+"</td><td class='contact '>"+v.contact+"</td></tr>")
     });
+    var options = {
+      valueNames: ['name', 'owner', 'location', 'contact']
+    };
+    var list = new List('list-container', options);
   </script>
 </body>
 </html>
