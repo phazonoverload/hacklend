@@ -19,5 +19,40 @@ var items = [
     owner: "Hacksmiths",
     location: "London, UK",
     contact: "hacksmiths@gold.ac.uk"
+  },
+  {
+    name: "VGA to HDMI Adapter",
+    link: "https://www.amazon.co.uk/gp/product/B01GFMW91E/ref=od_aui_detailpages00?ie=UTF8&psc=1",
+    owner: "Hacksmiths",
+    location: "London, UK",
+    contact: "hacksmiths@gold.ac.uk"
+  },
+  {
+    name: "Displayport to HDMI Adapter",
+    link: "https://www.amazon.co.uk/gp/product/B017Q8ZVWK/ref=od_aui_detailpages00?ie=UTF8&psc=1",
+    owner: "Hacksmiths",
+    location: "London, UK",
+    contact: "hacksmiths@gold.ac.uk"
+  },
+  {
+    name: "Thunderbolt to HDMI Adapter",
+    link: "https://www.amazon.co.uk/gp/product/B013P0JTX0/ref=od_aui_detailpages00?ie=UTF8&psc=1",
+    owner: "Hacksmiths",
+    location: "London, UK",
+    contact: "hacksmiths@gold.ac.uk"
+  },
+  {
+    name: "USB-C to HDMI Adapter",
+    link: "https://www.amazon.co.uk/gp/product/B01MYUCWOK/ref=od_aui_detailpages00?ie=UTF8&psc=1",
+    owner: "Hacksmiths",
+    location: "London, UK",
+    contact: "hacksmiths@gold.ac.uk"
+  },
+  {
+    name: "Thunderbolt to HDMI/VGA/DVI Adapter",
+    link: "https://www.amazon.co.uk/gp/product/B00WB25B6S/ref=od_aui_detailpages00?ie=UTF8&psc=1",
+    owner: "Hacksmiths",
+    location: "London, UK",
+    contact: "hacksmiths@gold.ac.uk"
   }
 ];
