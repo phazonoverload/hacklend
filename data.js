@@ -54,5 +54,12 @@ var items = [
     owner: "Hacksmiths",
     location: "London, UK",
     contact: "hacksmiths@gold.ac.uk"
+  },
+  {
+    name: "40 Single Air Beds",
+    link: "https://www.decathlon.co.uk/single-camping-sleeping-bed-70-cm-id_8317809.html",
+    owner: "Hacksmiths",
+    location: "London, UK",
+    contact: "hacksmiths@gold.ac.uk"
   }
 ];
