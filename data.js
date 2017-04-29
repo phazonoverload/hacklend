@@ -58,14 +58,14 @@ var items = [
   {
     name: "40 Single Air Beds",
     link: "https://www.decathlon.co.uk/single-camping-sleeping-bed-70-cm-id_8317809.html",
-    owner: "HackNotts",
+    owner: "HackNotts (with Hacksmiths)",
     location: "London, UK",
     contact: "hacksmiths@gold.ac.uk"
   },
   {  
     name: "Wooden castle",
     link: "https://twitter.com/hacksocnotts/status/803172075091300352",
-    owner: "HackNotts (with Hacksmiths)",
+    owner: "HackNotts",
     location: "Nottingham, England",
     contact: "psxge@nottingham.ac.uk"
   }
