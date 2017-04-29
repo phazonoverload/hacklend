@@ -61,9 +61,8 @@ var items = [
     owner: "HackNotts",
     location: "London, UK",
     contact: "hacksmiths@gold.ac.uk"
-    
-    ,
-    
+  },
+  {  
     name: "Wooden castle",
     link: "https://twitter.com/hacksocnotts/status/803172075091300352",
     owner: "HackNotts",
