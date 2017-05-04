@@ -68,5 +68,19 @@ var items = [
     owner: "HackNotts",
     location: "Nottingham, England",
     contact: "psxge@nottingham.ac.uk"
+  },
+  {
+    name: "8 boxes insulated hot cups",
+    link: "https://www.amazon.co.uk/Cafe-Express-10ounce-295mililiter-Insulated/dp/B00GHKFHHS",
+    owner: "HackSoc Manchester",
+    location: "Manchester, UK",
+    contact: "teo@hacksoc.com"
+  },
+  {
+    name: "100 assorted extension leads",
+    link: "https://www.amazon.co.uk/Status-13-Way-Extension-Socket/dp/B00HD78QPE/ref=sr_1_9?ie=UTF8&qid=1493377284&sr=8-9",
+    owner: "HackSoc Manchester",
+    location: "Manchester, UK",
+    contact: "teo@hacksoc.com"
   }
 ];
