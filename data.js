@@ -66,7 +66,7 @@ var items = [
     name: "Wooden castle",
     link: "https://twitter.com/hacksocnotts/status/803172075091300352",
     owner: "HackNotts",
-    location: "Nottingham, England",
+    location: "Nottingham, UK",
     contact: "psxge@nottingham.ac.uk"
   },
   {
