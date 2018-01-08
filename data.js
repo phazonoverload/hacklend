@@ -58,9 +58,30 @@ var items = [
   {
     name: "40 Single Air Beds",
     link: "https://www.decathlon.co.uk/single-camping-sleeping-bed-70-cm-id_8317809.html",
-    owner: "Hacksmiths",
+    owner: "HackNotts",
     location: "London, UK",
     contact: "hacksmiths@gold.ac.uk"
+  },
+  {  
+    name: "Wooden castle",
+    link: "https://twitter.com/hacksocnotts/status/803172075091300352",
+    owner: "HackNotts",
+    location: "Nottingham, UK",
+    contact: "psxge@nottingham.ac.uk"
+  },
+  {
+    name: "8 boxes insulated hot cups",
+    link: "https://www.amazon.co.uk/Cafe-Express-10ounce-295mililiter-Insulated/dp/B00GHKFHHS",
+    owner: "HackSoc Manchester",
+    location: "Manchester, UK",
+    contact: "teo@hacksoc.com"
+  },
+  {
+    name: "100 assorted extension leads",
+    link: "https://www.amazon.co.uk/Status-13-Way-Extension-Socket/dp/B00HD78QPE/ref=sr_1_9?ie=UTF8&qid=1493377284&sr=8-9",
+    owner: "HackSoc Manchester",
+    location: "Manchester, UK",
+    contact: "teo@hacksoc.com"
   },
   {
     name: "200 Plain Blue Lanyards",
