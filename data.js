@@ -61,5 +61,12 @@ var items = [
     owner: "Hacksmiths",
     location: "London, UK",
     contact: "hacksmiths@gold.ac.uk"
+  },
+  {
+    name: "200 Plain Blue Lanyards",
+    link: "https://www.amazon.co.uk/gp/product/B00X9XDYVM",
+    owner: "Hackference",
+    location: "Birmingham, UK",
+    contact: "mike@hackference.co.uk"
   }
 ];
