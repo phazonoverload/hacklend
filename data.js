@@ -82,5 +82,12 @@ var items = [
     owner: "HackSoc Manchester",
     location: "Manchester, UK",
     contact: "teo@hacksoc.com"
+  },
+  {
+    name: "200 Plain Blue Lanyards",
+    link: "https://www.amazon.co.uk/gp/product/B00X9XDYVM",
+    owner: "Hackference",
+    location: "Birmingham, UK",
+    contact: "mike@hackference.co.uk"
   }
 ];
