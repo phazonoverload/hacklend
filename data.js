@@ -62,13 +62,6 @@ var items = [
     location: "London, UK",
     contact: "hacksmiths@gold.ac.uk"
   },
-  {  
-    name: "Wooden castle",
-    link: "https://twitter.com/hacksocnotts/status/803172075091300352",
-    owner: "HackNotts",
-    location: "Nottingham, UK",
-    contact: "psxge@nottingham.ac.uk"
-  },
   {
     name: "8 boxes insulated hot cups",
     link: "https://www.amazon.co.uk/Cafe-Express-10ounce-295mililiter-Insulated/dp/B00GHKFHHS",
